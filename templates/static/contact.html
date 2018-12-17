@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FITNESS APP</title>
+	<link rel="stylesheet" type="text/css" href="../../static/css/contactstyle.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="../../static/images/logo.png">
+			</div>
+			<ul>
+				<li><a href="{% url 'home' %}">Home</a></li>
+				<li><a href="{% url 'category' %}">Category</a></li>
+				<li><a href="{% url 'tips' %}">Tips</a></li>
+				<li  class="active"><a href="{% url 'contact' %}">Contact</a></li>
+				<li><a href="{% url 'about' %}">About</a></li>
+			</ul>
+		</div>
+		<div class="about">
+			<h1>DEVELOPERS</h1>
+			<h1>1.Ayush KUMAR PATWARI</h1>
+			<h2>contact-</h2>
+			<h1>2.BHARAT BHUSHAN</h1>
+			<h2>contact-</h2>
+
+		</div>
+	</header>
+</body>
+</html>

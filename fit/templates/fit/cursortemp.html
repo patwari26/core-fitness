@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>p</title>
+</head>
+<body>
+{%  for i in p %}
+    <ul >
+    {% for j in i %}
+        <li style="display:inline">{{ j }}</li>
+    {% endfor %}
+    </ul>
+{%  endfor %}
+</body>
+</html>

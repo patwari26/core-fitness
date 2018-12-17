@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FITNESS APP</title>
+	<link rel="stylesheet" type="text/css" href="../../static/css/aboutstyle.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="../../static/images/logo.png">
+			</div>
+			<ul>
+				<li><a href="{% url 'home' %}">Home</a></li>
+				<li><a href="{% url 'category' %}">Category</a></li>
+				<li><a href="{% url 'tips' %}">Tips</a></li>
+				<li><a href="{% url 'contact' %}">Contact</a></li>
+				<li  class="active"><a href="{% url 'about' %}">About</a></li>
+			</ul>
+		</div>
+		<div class="IITLOGO">
+			    <img src="../../static/images/IITLOGO.jpg">
+		</div>
+		<div class="about">
+			<h1>This web app was created for our ITW LAB PROJECT</h1>
+		</div>
+	</header>
+</body>
+</html>
